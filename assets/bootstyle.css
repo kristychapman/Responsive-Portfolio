@@ -1,12 +1,17 @@
 html {
     height: 100%;
   }
-  
+
   body {
     background-image: url("../images/concrete_seamless.png");
     display: flex;
     flex-direction: column;
     height: 100%;
+  }
+  @media screen and (max-width: 980px) {
+    body {
+      background-image:url("../images/concrete_seamless.png");
+    }
   }
   
   header {
@@ -15,6 +20,7 @@ html {
     border-bottom: solid 2px #cccccc;
     flex: 0 0 auto;
   }
+
   
   .wrapper {
     width: 960px;
@@ -36,6 +42,8 @@ html {
   #navbarNav {
     justify-content: flex-end;
   }
+
+ 
   
   .container {
     background-color: white;
@@ -98,6 +106,7 @@ html {
     height: auto;
     width: 200px;
   }
+
   
   footer {
     background-color: #666666 !important;
